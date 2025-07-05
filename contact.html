@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Yamin Hossan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffef9;
+    }
+    header {
+      background-color: #D2B48C;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    header img {
+      height: 50px;
+      border-radius: 50%;
+    }
+    header h1 {
+      margin: 0;
+      color: white;
+      font-size: 2rem;
+    }
+    nav {
+      background-color: #F2C94C;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #0074cc;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .contact-container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .contact-container h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: #8B0000;
+      margin-bottom: 20px;
+    }
+    .form-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .form-section input,
+    .form-section select,
+    .form-section textarea {
+      flex: 1 1 45%;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-section textarea {
+      flex: 1 1 100%;
+      height: 120px;
+    }
+    .form-section button {
+      padding: 10px 30px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .contact-info {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .contact-info h3 {
+      margin-bottom: 10px;
+    }
+    .social-icons {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .social-icons a img {
+      width: 35px;
+      height: 35px;
+      transition: transform 0.3s;
+    }
+    .social-icons a img:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Yamin Logo">
+    <h1>Yamin Hossan</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="nasheed.html">Nasheed</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="video.html">Video</a>
+    <a href="quran.html">Quran</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="contact-container">
+    <h2>Contact With Me</h2>
+    <form class="form-section">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Number">
+      <select>
+        <option>General Enquiry</option>
+        <option>Booking</option>
+        <option>Collaboration</option>
+      </select>
+      <textarea placeholder="Enter your message..." required></textarea>
+      <button type="submit">SUBMIT</button>
+    </form>
+    <div class="contact-info">
+      <h3>Send an e-mail</h3>
+      <p>yaminh888@gmail.com</p>
+      <div class="social-icons">
+        <a href="https://facebook.com/profile.php?id=61558414134600" target="_blank"><img src="facebook.svg" alt="Facebook"></a>
+        <a href="https://instagram.com/_yamin_hossan_/" target="_blank"><img src="instagram.svg" alt="Instagram"></a>
+        <a href="https://youtube.com/@yaminhossan1" target="_blank"><img src="youtube.svg" alt="YouTube"></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
